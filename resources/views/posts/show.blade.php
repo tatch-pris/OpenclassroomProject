@@ -5,7 +5,7 @@
 <h1>{{$posts->title}}</h1>
 <small>Written on {{$posts->created_at}}</small>
 <div> 
-    {{$posts->body}} : {{$posts->titlt}}
+    {{$posts->body}} : {{$posts->title}}
 </div>
 <hr> 
 <small>Written on {{$posts->created_at}}</small>
